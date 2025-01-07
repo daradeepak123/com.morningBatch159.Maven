@@ -12,6 +12,8 @@ public class LearnAlerts {
 	public static void main(String[] args) throws InterruptedException, Exception {
 	
 		
+		//added small ccomment
+		
 		UserDefined d=new UserDefined();
 		
 		driver=d.browserChoice();
