@@ -1,8 +1,6 @@
 package encapsule;
 
 public class FinalLearn {
-
-	
 	//this is final class
 	
 	int xyz=1000;
