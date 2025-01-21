@@ -1,149 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-04T07:52:48 IST" name="Suite" finished-at="2025-01-04T07:53:53 IST" duration-ms="64615">
+  <suite started-at="2025-01-21T10:32:22 IST" name="Default suite" finished-at="2025-01-21T10:32:25 IST" duration-ms="3671">
     <groups>
     </groups>
-    <test started-at="2025-01-04T07:52:48 IST" name="Test" finished-at="2025-01-04T07:53:53 IST" duration-ms="64615">
-      <class name="testNGbasics.ABC">
-        <test-method signature="hello()[pri:0, instance:testNGbasics.ABC@4ef74c30]" started-at="2025-01-04T07:53:00 IST" name="hello" finished-at="2025-01-04T07:53:00 IST" duration-ms="2" status="PASS">
+    <test started-at="2025-01-21T10:32:22 IST" name="Default test" finished-at="2025-01-21T10:32:25 IST" duration-ms="3671">
+      <class name="re.RestAssuredLearn">
+        <test-method signature="get_calls()[pri:0, instance:re.RestAssuredLearn@49dc7102]" started-at="2025-01-21T10:32:22 IST" name="get_calls" finished-at="2025-01-21T10:32:25 IST" duration-ms="3612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hello -->
-      </class> <!-- testNGbasics.ABC -->
-      <class name="testNGbasics.Admin">
-        <test-method is-config="true" signature="suitSetUP()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:47 IST" name="suitSetUP" finished-at="2025-01-04T07:52:48 IST" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suitSetUP -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:48 IST" name="openBrowser" finished-at="2025-01-04T07:52:58 IST" duration-ms="9679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:58 IST" name="headingTest" finished-at="2025-01-04T07:52:58 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:58 IST" name="headingTest" finished-at="2025-01-04T07:52:58 IST" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:58 IST" name="headingTest" finished-at="2025-01-04T07:52:59 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:59 IST" name="headingTest" finished-at="2025-01-04T07:52:59 IST" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:59 IST" name="headingTest" finished-at="2025-01-04T07:52:59 IST" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method signature="getData()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:59 IST" name="getData" finished-at="2025-01-04T07:52:59 IST" depends-on-methods="testNGbasics.Admin.headingTest" duration-ms="467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:52:59 IST" name="closeBrowser" finished-at="2025-01-04T07:53:00 IST" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGbasics.Admin@34129c78]" started-at="2025-01-04T07:53:53 IST" name="tearDown" finished-at="2025-01-04T07:53:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNGbasics.Admin -->
-      <class name="testNGbasics.DashBoardTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testNGbasics.DashBoardTest@7283d3eb]" started-at="2025-01-04T07:53:00 IST" name="openBrowser" finished-at="2025-01-04T07:53:07 IST" duration-ms="6839" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="getData()[pri:0, instance:testNGbasics.DashBoardTest@7283d3eb]" started-at="2025-01-04T07:53:07 IST" name="getData" finished-at="2025-01-04T07:53:08 IST" duration-ms="1504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.DashBoardTest@7283d3eb]" started-at="2025-01-04T07:53:08 IST" name="headingTest" finished-at="2025-01-04T07:53:13 IST" duration-ms="5109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGbasics.DashBoardTest@7283d3eb]" started-at="2025-01-04T07:53:13 IST" name="closeBrowser" finished-at="2025-01-04T07:53:14 IST" duration-ms="372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testNGbasics.DashBoardTest -->
-      <class name="testNGbasics.Leave">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testNGbasics.Leave@3f1d2e23]" started-at="2025-01-04T07:53:37 IST" name="openBrowser" finished-at="2025-01-04T07:53:45 IST" duration-ms="8424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="getData()[pri:0, instance:testNGbasics.Leave@3f1d2e23]" started-at="2025-01-04T07:53:45 IST" name="getData" finished-at="2025-01-04T07:53:47 IST" duration-ms="1778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method signature="headingTest()[pri:0, instance:testNGbasics.Leave@3f1d2e23]" started-at="2025-01-04T07:53:47 IST" name="headingTest" finished-at="2025-01-04T07:53:52 IST" duration-ms="5098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headingTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGbasics.Leave@3f1d2e23]" started-at="2025-01-04T07:53:52 IST" name="closeBrowser" finished-at="2025-01-04T07:53:53 IST" duration-ms="593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testNGbasics.Leave -->
-      <class name="testNGbasics.TestNGLearn">
-        <test-method is-config="true" signature="suiteSetUP()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:52:48 IST" name="suiteSetUP" finished-at="2025-01-04T07:52:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetUP -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:14 IST" name="openBrowser" finished-at="2025-01-04T07:53:19 IST" duration-ms="4790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="goToUploadPage()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:19 IST" name="goToUploadPage" finished-at="2025-01-04T07:53:23 IST" duration-ms="4401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPage -->
-        <test-method signature="testLearn()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:23 IST" name="testLearn" finished-at="2025-01-04T07:53:23 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLearn -->
-        <test-method is-config="true" signature="goToUploadPagePost()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:23 IST" name="goToUploadPagePost" finished-at="2025-01-04T07:53:23 IST" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPagePost -->
-        <test-method is-config="true" signature="goToUploadPage()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:23 IST" name="goToUploadPage" finished-at="2025-01-04T07:53:24 IST" duration-ms="922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPage -->
-        <test-method signature="testLearn1()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:24 IST" name="testLearn1" finished-at="2025-01-04T07:53:24 IST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLearn1 -->
-        <test-method is-config="true" signature="goToUploadPagePost()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:24 IST" name="goToUploadPagePost" finished-at="2025-01-04T07:53:25 IST" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPagePost -->
-        <test-method is-config="true" signature="goToUploadPage()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:25 IST" name="goToUploadPage" finished-at="2025-01-04T07:53:26 IST" duration-ms="841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPage -->
-        <test-method signature="testLearn2()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:26 IST" name="testLearn2" finished-at="2025-01-04T07:53:36 IST" duration-ms="10590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLearn2 -->
-        <test-method is-config="true" signature="goToUploadPagePost()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:36 IST" name="goToUploadPagePost" finished-at="2025-01-04T07:53:37 IST" duration-ms="380" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToUploadPagePost -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:37 IST" name="closeBrowser" finished-at="2025-01-04T07:53:37 IST" duration-ms="390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGbasics.TestNGLearn@638ef7ed]" started-at="2025-01-04T07:53:53 IST" name="tearDown" finished-at="2025-01-04T07:53:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNGbasics.TestNGLearn -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- get_calls -->
+      </class> <!-- re.RestAssuredLearn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

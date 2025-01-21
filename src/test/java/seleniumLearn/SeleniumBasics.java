@@ -1,4 +1,6 @@
 package seleniumLearn;
+import java.awt.Robot;
+
 import org.openqa.selenium.WebDriver;
 
 public class SeleniumBasics {
@@ -8,6 +10,11 @@ public class SeleniumBasics {
 
 	public static void main(String[] args) throws InterruptedException, Exception {
 	
+		
+		Robot r=new Robot();
+		
+	
+		
 		
 		UserDefined d=new UserDefined();
 		
